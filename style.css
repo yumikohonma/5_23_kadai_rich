@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* 登録セクション */
+#entry {
+  height: 100vh;
+  background: url('img/member.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 220px;
+}
+
+
+#entry input, #start {
+  font-size: 18px;
+  padding: 12px 20px;
+  width: 80%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+#addName {
+  font-size: 18px;
+  padding: 12px 20px;
+  width: 120px;
+}
+
+
+#nameList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nameList li {
+  background-color: #fcb7d6;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+/* 質問セクション */
+#question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* ← これで中央揃え */
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: url('img/sitsumon.png') no-repeat center center;
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  padding: 0; /* padding-top は不要になる */
+}
+
+
+.name-box {
+  font-size: 8vw;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  padding-left: 20vw; /* ← 吹き出しの左端に合わせる調整 */
+}
+
+#selectedQuestion {
+  font-size: 6vw;
+  font-weight: bold;
+  color: rgb(165, 4, 4);
+  margin-bottom: 20px;
+}
+
+#countdown {
+  font-size: 15vw;
+  font-weight: bold;
+  color: red;
+  margin-top: 0;
+  transform: translateY(-30px); /* ← ここがポイント！ */
+}
+
+/*かわいいリストにする*/
+#logArea {
+  background-color: #fff0f5; /* ピンク系背景 */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logArea h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #d63384; /* ロゴピンク */
+  text-align: center;
+}
+
+#logArea ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#logArea li {
+  background-color: #ffe4ec;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #444;
+  font-weight: bold;
+  position: relative;
+  border: 2px dashed #f7a5c1;
+}
+
