@@ -72,7 +72,7 @@ body {
   margin-top: 20px;
   width: 100%;
   text-align: left;
-  padding-left: 20vw; /* ← 吹き出しの左端に合わせる調整 */
+  padding-left: 10vw; /* ← 吹き出しの左端に合わせる調整 */
 }
 
 #selectedQuestion {
